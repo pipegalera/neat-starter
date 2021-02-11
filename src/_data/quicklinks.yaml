@@ -7,8 +7,8 @@ links:
     url: "/blog"
     desc: Project log of on going projects and current status, they might be incompleted.
   - title: Blog posts
-    url: "/blog"
+    url: "/blog2"
     desc: Complete posts, generally about tech.
   - title: Random thouhgts
-    url: "/blog"
+    url: "/blog2"
     desc: Short post about evrything else.
