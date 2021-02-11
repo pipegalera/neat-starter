@@ -1,14 +1,14 @@
 ---
 links:
-  - title: Subdirectory 1
+  - title: Course log
     url: "/blog"
-    desc: Subdirectory 1 description
-  - title: Subdirectory 2
+    desc: Course summaries of tech related moocs and online courses.
+  - title: Project log
     url: "/blog"
-    desc: Eleventy is a simpler static site generator.
-  - title: Subdirectory 3
+    desc: Project log of on going projects and current status, they might be incompleted.
+  - title: Blog posts
     url: "/blog"
-    desc: A minimal framework for composing JavaScript behavior in your markup.
-  - title: Subdirectory 4
+    desc: Complete posts, generally about tech.
+  - title: Random thouhgts
     url: "/blog"
-    desc: A utility-first CSS framework for rapidly building custom designs.
+    desc: Short post about evrything else.
