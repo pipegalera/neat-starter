@@ -3,14 +3,14 @@ layout: blog
 ---
 
 <section class="mt-15">
-    {% set postslist = collections.post2 %}
+    {% set postslist = collections.projects_folder %}
 
-    {% for post2 in postslist | reverse %}
+    {% for projects_folder in postslist | reverse %}
         <article class="my-8">
             <h2 class="font-bold text-3xl text-gray-900 mb-2">
-                <a href="{{ post2.url | url }}">
-                    {% if post2.data.title %}
-                        {{ post2.data.title }}
+                <a href="{{ projects_folder.url | url }}">
+                    {% if projects_folder.data.title %}
+                        {{ projects_folder.data.title }}
                     {% else %}
                         Untitled
                     {% endif %}
@@ -18,20 +18,20 @@ layout: blog
             </h2>
             <p class="text-base leading-6 text-gray-500 mb-3">
                 <time>
-                    {{ post2.date | readableDate }}
+                    {{ projects_folder.date | readableDate }}
                     by
-                    <a>{{ post2.data.author }}</a>
+                    <a>{{ projects_folder.data.author }}</a>
 
                 </time>
             </p>
-            {% if post2.data.description %}
+            {% if projects_folder.data.description %}
                 <p class="text-lg text-gray-500 mb-3">
-                    {{ post2.data.description }}
+                    {{ projects_folder.data.description }}
                 </p>
             {% endif %}
 
             <p>
-                <a href="{{ post2.url | url }}" class="text-indigo-500 font-bold text-lg">
+                <a href="{{ projects_folder.url | url }}" class="text-indigo-500 font-bold text-lg">
                     Read more →
                 </a>
             </p>

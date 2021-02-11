@@ -1,14 +1,14 @@
 ---
 links:
-  - title: Course log
-    url: "/blog"
+  - title: Courses track
+    url: "/courses"
     desc: Course summaries of tech related moocs and online courses.
-  - title: Project log
-    url: "/blog"
-    desc: Project log of on going projects and current status, they might be incompleted.
+  - title: Project portfolio
+    url: "/projects"
+    desc: Project log of on going projects and current status.
   - title: Blog posts
-    url: "/blog2"
-    desc: Complete posts, generally about tech.
-  - title: Random thouhgts
-    url: "/blog2"
-    desc: Short post about evrything else.
+    url: "/blog"
+    desc: Complete posts, generally tech-related.
+  - title: Miscelanea
+    url: "/miscelanea"
+    desc: Mix of random thoughts about everything else.
